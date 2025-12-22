@@ -55,6 +55,7 @@ if st.button("Click me"):
 col1, col2 = st.columns(2)
 with col1:
     st.write("Left column")
+    st.button("mystery button")
 with col2:
     st.write("Right column")
 
