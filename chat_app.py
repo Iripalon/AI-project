@@ -116,4 +116,3 @@ if prompt := st.chat_input("Type your message here..."):
                 error_message = f"Error: {str(e)}"
                 st.error(error_message)
                 st.session_state.messages.append({"role": "assistant", "content": error_message})
-
