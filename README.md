@@ -2,6 +2,11 @@
 
 Welcome! This repository collects a range of Streamlit apps and chatbot demos designed for students and beginners to learn by example.
 
+# Set up venv
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
 ## What's Inside
 
 - **Basic Streamlit Demos:**  
