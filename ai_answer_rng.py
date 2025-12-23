@@ -222,7 +222,8 @@ def preset_page():
 
 def chillspace_page():
     st.title("Chillspace for the Bored")
-    st.write("This game is in Beta. Bugs and issues may occur.")
+    st.write("This game is in Beta. Bugs and issues may occue.")
+    st.write("Double-clciking may accidentally select the picture and turn it blue. To solve this, simply click anywhere ourside the picture to deselect it.")
     st.write("Spamming the button may crash the game.")
     st.write("Anyway, enjoy the game :D")
 
@@ -304,6 +305,7 @@ def credits_page():
     st.write("- OpenAI API")
     st.write("- Python")
     st.write("(Most of the work is wrote by AI tho hehe)")
+    st.title("MORE UPDATES COMING SOON!!!!! STAY TUNED :D")
 
 # Navigation
 pages = [
